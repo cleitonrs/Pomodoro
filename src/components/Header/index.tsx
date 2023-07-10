@@ -8,12 +8,12 @@ export function Header() {
     <HeaderContainer>
       <img src={logoIgnite} alt="" />
       <nav>
-        <NavLink to="/">
-          <Timer size={24} title="Timer"/>
+        <NavLink to="/" title="Timer" >
+          <Timer size={24} />
         </NavLink>
 
-        <NavLink to="/history">
-          <Scroll size={24} title="Histórico" />
+        <NavLink to="/history" title="Histórico">
+          <Scroll size={24} />
         </NavLink>
       </nav>
     </HeaderContainer>
